@@ -3,7 +3,8 @@ from student import views
 
 urlpatterns=[
     path('register/',views.StudentAddView.as_view(),name="student-register"),
-    path('signin/',views.SigninView.as_view(),name="student-signin"),
+    # path('signin/',views.SigninView.as_view(),name="student-signin"),
+    path('',views.SigninView.as_view(),name="student-signin"),
     path('index/',views.IndexView.as_view(),name="student-index"),
     path('course/<int:pk>/',views.CourseDetailView.as_view(),name="course-detail"),
     path("course/<int:pk>/add-to-cart/",views.AddCartView.as_view(),name="cart"),
