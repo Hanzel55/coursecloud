@@ -84,7 +84,7 @@ class IndexView(View):
 
 
 
-    
+     
 # example        
 class MytemplateView(TemplateView): # import TemplateView
 

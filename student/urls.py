@@ -15,4 +15,4 @@ urlpatterns=[
     path('payment/verify/',views.PaymentverificationView.as_view(),name="payment-verify"),
     path('signout/',views.LogoutView.as_view(),name="signout"),
     
-]
+]  
